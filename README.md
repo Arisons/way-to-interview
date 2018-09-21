@@ -45,9 +45,27 @@ By[@Arisons](https://github.com/Arisons/way-to-interview)
 
   参考文档：[https://segmentfault.com/a/1190000011381906](https://segmentfault.com/a/1190000011381906)
 
+- ##### 4、如题
+```html
+	<div class='blue,red'>你说我什么颜色</div>
+	<div class='red,blue'>这时候又是什么颜色</div>
+```
+```css
+ .red{
+     color:red;
+ }
+ .blue{
+     color:blue;
+ }
+```
+- ##### 5、如题
+ const定义一个数组 `const arr = [1, 2` `arr.push(3)` 会报错吗???
+.定义一个 `const obj = {a: 1, b: 2}` `obj.a = 3`    会报错吗???
+简单解释下咯？？
+
   #### 待续.....
 
-  
+
 By[@smileyby](https://github.com/smileyby/way-to-interview)
 
 1/已知有序数组，查找其中的某个元素并返回其下标（不能使用语言自带的方法，考虑性能）
